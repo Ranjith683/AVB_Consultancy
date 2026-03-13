@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 import { FaBriefcase, FaMapMarkerAlt, FaClock, FaFilter } from "react-icons/fa";
 
 const allJobs = [
-  { id: 1, title: "Production Supervisor", company: "Textile Industries Ltd", location: "Erode", type: "Full-time", sector: "Manufacturing", exp: "3-5 Years", salary: "₹25,000 - ₹35,000/mo", posted: "2 days ago", urgent: true },
-  { id: 2, title: "HR Executive", company: "Auto Components Pvt Ltd", location: "Coimbatore", type: "Full-time", sector: "Automotive", exp: "1-3 Years", salary: "₹18,000 - ₹25,000/mo", posted: "3 days ago", urgent: false },
-  { id: 3, title: "Accounts Manager", company: "Logistics Solutions", location: "Erode", type: "Full-time", sector: "Logistics", exp: "5-8 Years", salary: "₹40,000 - ₹55,000/mo", posted: "1 day ago", urgent: true },
-  { id: 4, title: "ITI Fitter / Electrician", company: "Engineering Works", location: "Tirupur", type: "Full-time", sector: "Engineering", exp: "0-2 Years", salary: "₹15,000 - ₹22,000/mo", posted: "5 days ago", urgent: false },
-  { id: 5, title: "Sales Executive", company: "FMCG Distribution Co.", location: "Salem", type: "Full-time", sector: "FMCG", exp: "1-3 Years", salary: "₹20,000 - ₹30,000/mo + Incentives", posted: "4 days ago", urgent: false },
-  { id: 6, title: "Quality Control Inspector", company: "Garment Factory", location: "Tirupur", type: "Full-time", sector: "Textile", exp: "2-4 Years", salary: "₹22,000 - ₹30,000/mo", posted: "1 week ago", urgent: false },
-  { id: 7, title: "Software Developer (React)", company: "IT Services Firm", location: "Coimbatore", type: "Full-time", sector: "IT", exp: "2-4 Years", salary: "₹35,000 - ₹60,000/mo", posted: "2 days ago", urgent: true },
-  { id: 8, title: "Store Keeper", company: "Manufacturing Unit", location: "Erode", type: "Full-time", sector: "Manufacturing", exp: "1-3 Years", salary: "₹14,000 - ₹20,000/mo", posted: "6 days ago", urgent: false },
-  { id: 9, title: "Staff Nurse", company: "Private Hospital", location: "Erode", type: "Full-time", sector: "Healthcare", exp: "0-3 Years", salary: "₹18,000 - ₹28,000/mo", posted: "3 days ago", urgent: true },
-  { id: 10, title: "Machine Operator (CNC)", company: "Precision Tools Ltd", location: "Coimbatore", type: "Full-time", sector: "Engineering", exp: "2-5 Years", salary: "₹20,000 - ₹32,000/mo", posted: "1 week ago", urgent: false },
-  { id: 11, title: "BPO Executive", company: "Business Process Unit", location: "Erode", type: "Full-time", sector: "IT", exp: "0-1 Year", salary: "₹12,000 - ₹18,000/mo", posted: "2 days ago", urgent: false },
-  { id: 12, title: "Plant Manager", company: "Chemical Plant", location: "Namakkal", type: "Full-time", sector: "Manufacturing", exp: "10+ Years", salary: "₹80,000 - ₹1,20,000/mo", posted: "5 days ago", urgent: true },
+  { id: 1, title: "Site Engineer", company: "KPR Construction", location: "Coimbatore", type: "Full-time", sector: "Construction", exp: "2-5 Years", salary: "₹25,000 - ₹35,000/mo", posted: "Today", urgent: true },
+  // { id: 2, title: "HR Executive", company: "Auto Components Pvt Ltd", location: "Coimbatore", type: "Full-time", sector: "Automotive", exp: "1-3 Years", salary: "₹18,000 - ₹25,000/mo", posted: "3 days ago", urgent: false },
+  // { id: 3, title: "Accounts Manager", company: "Logistics Solutions", location: "Erode", type: "Full-time", sector: "Logistics", exp: "5-8 Years", salary: "₹40,000 - ₹55,000/mo", posted: "1 day ago", urgent: true },
+  // { id: 4, title: "ITI Fitter / Electrician", company: "Engineering Works", location: "Tirupur", type: "Full-time", sector: "Engineering", exp: "0-2 Years", salary: "₹15,000 - ₹22,000/mo", posted: "5 days ago", urgent: false },
+  // { id: 5, title: "Sales Executive", company: "FMCG Distribution Co.", location: "Salem", type: "Full-time", sector: "FMCG", exp: "1-3 Years", salary: "₹20,000 - ₹30,000/mo + Incentives", posted: "4 days ago", urgent: false },
+  // { id: 6, title: "Quality Control Inspector", company: "Garment Factory", location: "Tirupur", type: "Full-time", sector: "Textile", exp: "2-4 Years", salary: "₹22,000 - ₹30,000/mo", posted: "1 week ago", urgent: false },
+  // { id: 7, title: "Software Developer (React)", company: "IT Services Firm", location: "Coimbatore", type: "Full-time", sector: "IT", exp: "2-4 Years", salary: "₹35,000 - ₹60,000/mo", posted: "2 days ago", urgent: true },
+  // { id: 8, title: "Store Keeper", company: "Manufacturing Unit", location: "Erode", type: "Full-time", sector: "Manufacturing", exp: "1-3 Years", salary: "₹14,000 - ₹20,000/mo", posted: "6 days ago", urgent: false },
+  // { id: 9, title: "Staff Nurse", company: "Private Hospital", location: "Erode", type: "Full-time", sector: "Healthcare", exp: "0-3 Years", salary: "₹18,000 - ₹28,000/mo", posted: "3 days ago", urgent: true },
+  // { id: 10, title: "Machine Operator (CNC)", company: "Precision Tools Ltd", location: "Coimbatore", type: "Full-time", sector: "Engineering", exp: "2-5 Years", salary: "₹20,000 - ₹32,000/mo", posted: "1 week ago", urgent: false },
+  // { id: 11, title: "BPO Executive", company: "Business Process Unit", location: "Erode", type: "Full-time", sector: "IT", exp: "0-1 Year", salary: "₹12,000 - ₹18,000/mo", posted: "2 days ago", urgent: false },
+  // { id: 12, title: "Plant Manager", company: "Chemical Plant", location: "Namakkal", type: "Full-time", sector: "Manufacturing", exp: "10+ Years", salary: "₹80,000 - ₹1,20,000/mo", posted: "5 days ago", urgent: true },
 ];
 
 const sectors = ["All", "Manufacturing", "IT", "Automotive", "Textile", "Healthcare", "FMCG", "Logistics", "Engineering"];

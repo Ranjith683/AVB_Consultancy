@@ -306,7 +306,7 @@ input, select, textarea, button { font-family: 'DM Sans', sans-serif; }
 /* ========== FOOTER ========== */
 .footer { background: #0f1117; color: rgba(255,255,255,0.75); }
 .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 40px; padding: 60px 8%; }
-.footer-logo { height: 70px; margin-bottom: 16px; filter: brightness(0) invert(1); }
+.footer-logo { height: 70px; margin-bottom: 16px;}
 .footer-brand p { font-size: 14px; line-height: 1.8; max-width: 280px; }
 .footer-social { display: flex; gap: 12px; margin-top: 20px; }
 .footer-social a { color: rgba(255,255,255,0.6); font-size: 18px; transition: color 0.2s; }
@@ -330,7 +330,7 @@ input, select, textarea, button { font-family: 'DM Sans', sans-serif; }
 /* REGISTER */
 .register-container { display: grid; grid-template-columns: 1fr 1.3fr; max-width: 1000px; width: 100%; background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); }
 .auth-brand { background: linear-gradient(160deg, var(--blue-dark) 0%, #1a2a4a 100%); padding: 48px 36px; display: flex; flex-direction: column; justify-content: center; }
-.auth-logo { height: 70px; margin-bottom: 28px; }
+.auth-logo { height: 100px; margin-bottom: 28px; }
 .auth-brand h1 { color: white; font-size: 1.8rem; margin-bottom: 12px; }
 .auth-brand p { color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.7; margin-bottom: 28px; }
 .auth-bullets { display: flex; flex-direction: column; gap: 10px; }
