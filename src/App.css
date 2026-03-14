@@ -83,10 +83,10 @@ input, select, textarea, button { font-family: 'DM Sans', sans-serif; }
   font-size: 15px; border: 2px solid rgba(255,255,255,0.5); transition: all 0.3s;
 }
 .hero-btn-secondary:hover { border-color: white; background: rgba(255,255,255,0.1); }
-.hero-bottom-left { position: absolute; bottom: 30px; left: 60px; display: flex; gap: 20px; }
+.hero-bottom-left { position: absolute; bottom: 15px; left: 60px; display: flex; gap: 20px; }
 .hero-bottom-left a { color: rgba(255,255,255,0.85); font-size: 13px; transition: color 0.2s; }
 .hero-bottom-left a:hover { color: white; }
-.hero-bottom-right { position: absolute; bottom: 30px; right: 60px; display: flex; gap: 16px; }
+.hero-bottom-right { position: absolute; bottom: 15px; right: 60px; display: flex; gap: 16px; }
 .hero-bottom-right a { color: white; font-size: 20px; transition: color 0.2s; }
 .hero-bottom-right a:hover { color: var(--gold); }
 
@@ -531,7 +531,7 @@ input, select, textarea, button { font-family: 'DM Sans', sans-serif; }
 
 @media (max-width: 480px) {
   .navbar-inner { padding: 10px 10px; }
-  .logo img { height: 100px; }
+  .logo img { height: 70px; }
   .nav-links { padding: 15px; gap: 12px; }
   .hero-content { left: 15px; right: 15px; top: 50%; transform: translateY(-50%) translateX(0); }
   .hero-content h1 { font-size: 2rem; line-height: 1.2; }
