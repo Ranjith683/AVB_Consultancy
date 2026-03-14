@@ -79,8 +79,8 @@ const Home = () => {
         <div className="hero-overlay">
           <div className={`hero-content ${heroVisible ? "hero-animate" : ""}`}>
             <span className="hero-badge">Erode's #1 HR Consultancy</span>
-            <h1>AVB Manpower<br />Solutions</h1>
-            <h2>Delivering Skilled Talent.<br />Driving Business Success.</h2>
+            <h1>AVB Manpower<br />Solutions</h1> 
+            <h2>Delivering Skilled Talent.<br />Driving Business Success. </h2>
             <div className="hero-cta-row">
               <Link to="/jobs" className="hero-btn-primary">Browse Jobs</Link>
               <a href="#why" className="hero-btn-secondary">Why Choose Us →</a>
