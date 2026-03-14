@@ -87,7 +87,7 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-bottom-left">
-            <a href="tel:+917418615555">📞 +91 74186 1555</a>
+            <a href="tel:+917418615555">📞 +91 74186 71555</a>
             <a href="tel:+919894627555">📞 +91 98946 27555</a>
             <a href="mailto:hravbms@gmail.com">✉️ hravbms@gmail.com</a>
           </div>
