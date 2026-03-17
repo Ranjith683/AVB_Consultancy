@@ -27,9 +27,8 @@ const stats = [
 ];
 
 const sectors = [
-  "Manufacturing", "IT & Software", "Automotive", "Textile & Garments",
-  "Healthcare", "FMCG", "Logistics", "Banking & Finance",
-  "Construction", "Retail", "Engineering", "Education"
+  "Civil Construction", "Manufacturing ", "Textile & Garments",
+  "Retail", "Engineering"
 ];
 
 function AnimatedCounter({ end, suffix, duration = 2000 }) {
@@ -94,7 +93,7 @@ const Home = () => {
           <div className="hero-bottom-right">
             <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
             <a href="https://in.indeed.com" target="_blank" rel="noreferrer"><SiIndeed /></a>
-            <a href="https://wa.me/918870101265" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+            <a href="https://wa.me/917418671555" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
           </div>
         </div>
       </section>

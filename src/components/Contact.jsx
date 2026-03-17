@@ -46,7 +46,7 @@ const Contact = () => {
                 <FaPhone className="ci-icon" />
                 <div>
                   <strong>Phone Numbers</strong>
-                  <p><a href="tel:+917418615555">+91 74186 1555</a></p>
+                  <p><a href="tel:+917418615555">+91 74186 71555</a></p>
                   <p><a href="tel:+919894627555">+91 98946 27555</a></p>
                 </div>
               </div>
@@ -55,7 +55,6 @@ const Contact = () => {
                 <div>
                   <strong>Email</strong>
                   <p><a href="mailto:hravbms@gmail.com">hravbms@gmail.com</a></p>
-                  <p><a href="mailto:avbmanpowersolutions@gmail.com">avbmanpowersolutions@gmail.com</a></p>
                 </div>
               </div>
               <div className="contact-info-card">
