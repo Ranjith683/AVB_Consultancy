@@ -19,10 +19,10 @@ const Footer = () => (
           solutions since 2019. 100+ clients. 10,000+ placements. One mission.
         </p>
         <div className="footer-social">
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+          <a href="#" target="_blank" rel="noreferrer">
             <FaLinkedinIn />
           </a>
-          <a href="https://in.indeed.com" target="_blank" rel="noreferrer">
+          <a href="#" target="_blank" rel="noreferrer">
             <SiIndeed />
           </a>
           <a href="https://wa.me/918870101265" target="_blank" rel="noreferrer">
@@ -99,7 +99,7 @@ const Footer = () => (
             <a href="mailto:hravbms@gmail.com">hravbms@gmail.com</a>
           </li>
           <li>
-            <FaMapMarkerAlt /> Erode, Tamil Nadu - 638011
+            <FaMapMarkerAlt /> Erode, Tamil Nadu - 638001
           </li>
         </ul>
       </div>

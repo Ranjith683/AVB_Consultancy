@@ -91,8 +91,8 @@ const Home = () => {
             <a href="mailto:hravbms@gmail.com">✉️ hravbms@gmail.com</a>
           </div>
           <div className="hero-bottom-right">
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
-            <a href="https://in.indeed.com" target="_blank" rel="noreferrer"><SiIndeed /></a>
+            <a href="#" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+            <a href="#" target="_blank" rel="noreferrer"><SiIndeed /></a>
             <a href="https://wa.me/917418671555" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
           </div>
         </div>
