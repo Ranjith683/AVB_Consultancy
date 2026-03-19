@@ -10,9 +10,9 @@ const team = [
     initial: "VP",
   },
   {
-    name: "S.Lakshmanaraj",
+    name: "S.S Lakshmanaraj",
     role: "Founder",
-    exp: "10+ Years Recruiter",
+    exp: "10+ Years Head Recruiter",
     initial: "LS",
   },
 
