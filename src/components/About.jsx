@@ -4,17 +4,18 @@ import { FaHandshake, FaEye, FaBullseye, FaStar } from "react-icons/fa";
 
 const team = [
   {
-    name: "Lakshmanaraj S",
-    role: "Co-Founder",
-    exp: "25+ Years HR Experience",
-    initial: "LS",
-  },
-  {
     name: "Venkataesh Prabhu",
-    role: "Co-Founder",
+    role: "Founder",
     exp: "25+ Years HR & Talent Acquisition",
     initial: "VP",
   },
+  {
+    name: "Lakshmanaraj S",
+    role: "Founder",
+    exp: "25+ Years Recruiter",
+    initial: "LS",
+  },
+
   {
     name: "Deepak",
     role: "Operations Manager",
